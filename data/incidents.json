@@ -8,10 +8,12 @@
       "month": "",
       "day": ""
     },
-    "source": {
-      "name": "abuse.wikia.org",
-      "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
-    },
+    "sources": [
+      {
+        "name": "abuse.wikia.org",
+        "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+      }
+    ],
     "media": {
       "url": "",
       "caption": "",
@@ -27,10 +29,12 @@
       "month": "",
       "day": ""
     },
-    "source": {
-      "name": "abuse.wikia.org",
-      "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
-    },
+    "sources": [
+      {
+        "name": "abuse.wikia.org",
+        "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+      }
+    ],
     "media": {
       "url": "",
       "caption": "",
@@ -46,10 +50,12 @@
       "month": "",
       "day": ""
     },
-    "source": {
-      "name": "abuse.wikia.org",
-      "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
-    },
+    "sources": [
+      {
+        "name": "abuse.wikia.org",
+        "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+      }
+    ],
     "media": {
       "url": "",
       "caption": "",
@@ -65,10 +71,12 @@
       "month": "",
       "day": ""
     },
-    "source": {
-      "name": "abuse.wikia.org",
-      "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
-    },
+    "sources": [
+      {
+        "name": "abuse.wikia.org",
+        "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+      }
+    ],
     "media": {
       "url": "",
       "caption": "",
@@ -84,10 +92,12 @@
       "month": "",
       "day": ""
     },
-    "source": {
-      "name": "abuse.wikia.org",
-      "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
-    },
+    "sources": [
+      {
+        "name": "abuse.wikia.org",
+        "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+      }
+    ],
     "media": {
       "url": "",
       "caption": "",
@@ -103,10 +113,75 @@
       "month": "",
       "day": ""
     },
-    "source": {
-      "name": "abuse.wikia.org",
-      "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+    "sources": [
+      {
+        "name": "abuse.wikia.org",
+        "url": "https://abuse.wikia.org/wiki/Ragging_in_Sri_Lanka"
+      }
+    ],
+    "media": {
+      "url": "",
+      "caption": "",
+      "credit": ""
+    }
+  },
+  {
+    "info": {
+      "title": "Senior students of Jaffna University was banned for sexual harassment.",
+      "desc": "A group of senior students of the Kilinochchi Campus have inhumanely ragged a group of new students by sexually harassing and recording the acts on mobile phones. It has been reported that the new students were forced to provide the recordings to the senior students. As a result, the university administration has decided to impose the ban until the investigations into the incident are completed.",
+      "location": "Jaffna University",
+      "year": "2020",
+      "month": "2",
+      "day": "10"
     },
+    "sources": [
+      {
+        "name": "Colombo Page",
+        "url": "http://www.colombopage.com/archive_20A/Feb10_1581316139CH.php"
+      }
+    ],
+    "media": {
+      "url": "",
+      "caption": "",
+      "credit": ""
+    }
+  },
+  {
+    "info": {
+      "title": "Seniors suspended for ragging.",
+      "desc": "A group of 54 second-year students of the Sabaragamuwa University’s Agriculture Faculty were suspended for one week for ragging first year students at the faculty. The suspected students had detained first year students at the cafeteria without allowing them to follow lectures. They had been subject to severe harassment the previous night also.",
+      "location": "Sabaragamuwa University",
+      "year": "2019",
+      "month": "2",
+      "day": "16"
+    },
+    "sources": [
+      {
+        "name": "Daily News",
+        "url": "http://www.dailynews.lk/2019/02/16/local/177752/sabaragamuwa-seniors-suspended-ragging"
+      }
+    ],
+    "media": {
+      "url": "",
+      "caption": "",
+      "credit": ""
+    }
+  },
+  {
+    "info": {
+      "title": "Seven Kelaniya Uni. Students Remanded.",
+      "desc": "They were arrested on a complaint filed by a first year female student who claimed that they ragged her over an imagined rule banning long trousers for first year female students. They had allegedly verbally assaulted her using filthy language",
+      "location": "University of Kelaniya",
+      "year": "2016",
+      "month": "5",
+      "day": ""
+    },
+    "sources": [
+      {
+        "name": "Hiru News",
+        "url": "http://www.hirunews.lk/132574/seven-kelaniya-uni-students-remanded-over-ragging"
+      }
+    ],
     "media": {
       "url": "",
       "caption": "",
