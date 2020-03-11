@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #737373;
+}

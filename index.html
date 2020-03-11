@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sri Lankan Ragging Timeline, 1975-present</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1,width=device-width">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-touch-fullscreen" content="yes">
+  <link rel="stylesheet" href="./lib/css/timeline.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script type="text/javascript" src="./lib/js/timeline.min.js"></script>
+  <script src="./lib/js/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+  <div id="timeline-embed">
+    <div id="timeline"></div>
+  </div>
+
+  <footer>
+    <p>Version: <b>1.0.0</b> | <a href="https://github.com/ipmanlk/RaggingTimeline">Contribute</a></p>
+  </footer>
+
+  <script>
+    $(document).ready(() => {
+      try {
+        init();
+      } catch (error) {
+        console.log(error);
+      }
+    });
+
+    const init = async () => {
+      // load incidents
+      const incidents = await $.getJSON("./data/incidents.json");
+
+      // generate timeline events array for incidents
+      const events = incidents.map(ins => {
+        return {
+          "media": {
+            "url": ins.media.url,
+            "caption": ins.media.caption,
+            "credit": ins.media.credit
+          },
+          "start_date": {
+            "month": ins.info.month,
+            "day": ins.info.day,
+            "year": ins.info.year
+          },
+          "text": {
+            "headline": `${ins.info.title} <i>(${ins.info.location})</i>`,
+            "text": `<p>${ins.info.desc}</p> <b>Source:</b> <a href='${ins.source.url}'>${ins.source.name}</a>`
+          }
+        }
+      });
+
+      // load timeline default data
+      const timelineData = await $.getJSON("./default/timeline.json");
+
+      // add events to timeline
+      timelineData.events = timelineData.events.concat(events);
+
+      // show timeline
+      var embed = document.getElementById("timeline-embed");
+      embed.style.height = getComputedStyle(document.body).height;
+      window.timeline = new TL.Timeline("timeline-embed", timelineData, { hash_bookmark: false });
+
+      // handle widnow resize
+      $(window).on("resize", () => {
+        var embed = document.getElementById("timeline-embed");
+        embed.style.height = getComputedStyle(document.body).height;
+        timeline.updateDisplay();        
+      });
+    }
+  </script>
+</body>
+
+</html>
